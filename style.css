@@ -1,0 +1,420 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #EEF1EF;
+    background-color: #1d1d1d;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+}
+
+a {
+    cursor: pointer;
+    color: #f2f2f2;
+}
+
+h2, h3 {
+    margin-top: 5rem;
+}
+
+/*grow*/
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.5); 
+}
+/*grow cards*/
+.card-grow {
+    transition: all .2s ease-in-out;
+}
+
+.card-grow:hover {
+    transform: scale(1.05); 
+}
+
+/*fade in*/
+.fade-2s {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+.fade-4s {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+.fade-6s {
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
+    -o-animation: fadeIn ease 6s;
+    -ms-animation: fadeIn ease 6s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+        }
+        
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+.fade-8s {
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+            
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+            
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+            
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+/*nav*/
+.navbar li {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-buttons {
+    list-style: none;
+    margin-top: .5rem;
+    color: white;
+    text-align: left;
+    display: inline-flex;
+}
+
+.navbar {
+    display: inline-flex;
+    justify-content: space-evenly;
+    background-color: #292929;
+}
+
+.toggle {
+    background-color: #C42021;
+}
+
+#mode {
+    margin-left: .3rem;
+    color: #f2f2f2;
+    background-color: #C42021;
+}
+
+.nav-brand {
+    justify-content: center;
+}
+
+#dark {
+    color: #1d1d1d;
+}
+
+/*home page*/
+
+.hello {
+    display: inline-block;
+    margin-top: 30vh;
+    text-align: center;
+    width: 100%;
+}
+
+#am {
+    margin-top: 1.5rem;
+}
+
+.red {
+    color: #C42021;
+}
+
+.click {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10rem;
+    height: 15vh;
+}
+
+#dark, #light, i {
+    cursor: pointer;
+}
+
+#projects-click-arrows {
+    margin-top: 2rem;
+    color: #C42021;
+    cursor: pointer;
+}
+
+/*projects*/
+.projects-div {
+    margin-top: 10rem;
+    text-align: center;
+    background-color: #1d1d1d;
+}
+
+/*project cards*/
+.card-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.card {
+    background-color: #292929;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    padding-top: 1rem;
+}
+
+.card-link {
+    color: #f3f3f3;
+}
+
+.demo {
+    color: #C42021;
+}
+
+.demo:hover {
+    color: #f3f3f3;
+}
+
+.git:hover {
+    color: #C42021;
+}
+
+/*About*/
+.about-container {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.about-header {
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    color: #f2f2f2;
+}
+
+.about-div {
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+
+p {
+    margin: 0 auto;
+    line-height: 2rem;
+}
+
+li, ul {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+.what-header {
+    margin-bottom: 2rem;
+}
+
+.who-header {
+    margin-bottom:2rem;
+    display: inline-block;
+}
+
+.what {
+    margin-bottom: 5rem;
+}
+
+/*contact*/
+/*contact container div*/
+.contact-container {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+/*contact heading*/
+.contact-header {
+    color: #f3f3f3;
+    display: inline-block;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+
+/*contact form*/
+.contact-form {
+    background-color: #292929;
+    display: inline-block;
+    text-align: left;
+}
+
+/*contact form name field*/
+#name {
+    margin-top: 1rem;
+}
+
+
+/*contact information div*/
+.contact-info {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.contact-text {
+    margin-bottom: 2rem;
+}
+
+/*contact form submit button*/
+#submit {
+    text-align: center;
+}
+
+.btn-send {
+    background-color: #1d1d1d;
+    display: inline-block;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/*form status message*/
+#form-status {
+    margin-left: 37%;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+/*footer*/
+
+.footer-container {
+    background-color: #292929;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 100vw;
+}
+footer {
+    background-color: #292929;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    margin-top: 10vw;
+    width: 100%;
+}
+
+.footer-button {
+    margin-top: 1.5rem;
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.fa-linkedin, .fa-github {
+    color: #f2f2f2;
+}
+
+.footer-button:hover, .nav-button:hover, .footer-button:active, .nav-button:active {
+    background-color: #C42021;
+}
+
+#card-middle {
+    margin: 5rem 0;
+}

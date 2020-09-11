@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Nate Orona">
+    <title>Nate Orona | Front End Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Portfolio</title>
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b16980ab2e.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+   <!--Dark Mode Stylesheet(default)-->
+    <link rel="stylesheet" type="text/css" href="style.css" id="dark-mode-sheet">
+    <!--Light Mode Stylesheet(default)-->
+    <link rel="stylesheet" type="text/css" href="" id="light-mode-sheet">
+
+  </head>
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="70">
+
+    <!--Navbar-->
+    <div class="wrapper" id="home-container">
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent fade-2s shadow d-flex justify-content-between">
+      <div class="brand nav-brand">
+        <a class="navbar-brand" id="nav-brand"><span class="red">Nate Orona</span> | Web Developer</a>
+      </div>
+      <button class="navbar-toggler toggle" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+        <div class="nav-links mx-auto">
+        <ul class="navbar-nav">
+          <li class="nav-item index">
+            <a class="nav-link card-grow home-click" id="home-click" href="#home-container">Home</a>
+          </li>
+          <li class="nav-item projects">
+            <a class="nav-link card-grow" id="projects-click" href="#projects-container">Projects</a>
+          </li>
+          <li class="nav-item about">
+            <a class="nav-link card-grow" id="about-click" href="#about-container">About</a>
+          </li>
+          <li class="nav-item contact">
+            <a class="nav-link card-grow" id="contact-click" href="#contact-container">Contact</a>
+          </li>
+        </ul>
+        </div>
+
+        <div class="nav-buttons" id="nav-buttons">
+          <ul class="nav-buttons">
+            <li>
+              <button class="nav-button btn btn-dark"><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></button>
+              <button class="nav-button btn btn-dark" id="linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <!--Dropdown menu for mode selection-->
+              <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle mode" type="button" id="mode" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Light/Dark
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button" id="light">Light</button>
+                  <button class="dropdown-item" type="button" id="dark"><span id="dark">Dark</span></button>
+                </div>
+              </div>
+            </div>    
+          </ul>
+        </div>
+      </nav> 
+    </div>
+
+    <div class="wrapper home-wrapper">
+
+    <!--Home-->
+    <div class="container-fluid hello">
+      <h3 class="fade-2s"><span class="red">Hello,</span> my name is</h3>
+      <h1 class="fade-4s"><span class="red">Nate</span> Orona</h1>
+      <h3 class="fade-6s" id="am"><span class="red">I'm</span> a front end web developer</h3>
+    </div>
+
+    <div class="container-fluid click fade-8s">
+      <div class="row-fluid">
+        <p class="lead my-work">Click here to see some of my work</h4><br>
+        <i class="fas fa-angle-double-down projects-scroll grow fa-lg" id="projects-click-arrows"></i>
+      </div>
+    </div>
+
+    <!--Projects-->
+    <div class="container-fluid projects-div" id="projects-container">
+      <h2><span class="red">P</span>rojects</h2>
+    </div>
+
+    <!--Project cards-->
+    <div class="container-fluid project-cards projects-div">
+      <div class="row card-row">
+    <!--card 1-->
+    <div class="card col-lg-3 col-xs-9 card-grow shadow">
+      <img src="/images/dom-screenshot.png.png" class="card-img-top" alt="project-image-1">
+      <div class="card-body">
+        <h5 class="card-title"><span class="red">DOM </span>Manipulation</h5>
+        <p class="card-text">I wrote this app to cement my skills in DOM manipulation using solely vanilla JS for the markup and bootstrap classes to handle the bulk of the styling</p>
+      </div>
+      <div class="card-body">
+        <a href="https://nateorona98.github.io/DOM-Manipulation.github.io/" class="card-link demo grow">Demo</a>
+        <a href="https://github.com/nateorona98/DOM-Manipulation.github.io" class="card-link git grow">GitHub</a>
+      </div>
+    </div>
+    <!--card 2-->
+    <div class="card col-lg-3 col-xs-9 card-grow shadow" id="card-middle">
+      <img src="/images/127.0.0.1_5500_index.html(iPhone 6_7_8 Plus).png" class="card-img-top" alt="project-image-2">
+      <div class="card-body">
+        <h5 class="card-title"><span class="red">Weather</span >API</h5>
+        <p class="card-text">A weather app built with the js fetch API and Weather</p>
+      </div>
+      <div class="card-body">
+        <a href="https://nateorona98.github.io/weather-app.github.io/" class="card-link demo grow">Demo</a>
+        <a href="https://github.com/nateorona98/weather-app.github.io" class="card-link git grow">GitHub</a>
+      </div>
+    </div>
+    <!--card 3-->
+    <div class="card col-lg-3 col-sm-9 card-grow shadow">
+      <img src="/images/relaxation-screenshot.png" class="card-img-top" alt="project-image-3">
+      <div class="card-body">
+        <h5 class="card-title"><span class="red">Relaxation</span> App</h5>
+        <p class="card-text">Meditation is an important part of my daily routine, and this project helps me take a quick break in the day to practice a simple breathing exercise. Made with vanilla JS and css animations.</p>
+      </div>
+      <div class="card-body">
+        <a href="https://nateorona98.github.io/relax.github.io/" class="card-link demo grow">Demo</a>
+        <a href="https://github.com/nateorona98/relax.github.io" class="card-link git grow">GitHub</a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+    <!--About-->
+  <div class="container-fluid about-container" id="about-container">
+    <div class="container-fluid about-div col-12" id="about">
+      <h2 class="about-header"><span class="red">A</span>bout Me</h2>
+      <p class="lead col-lg-5 col-md-12">I am a front end web developer from Northwest Indiana. I have always had a passion for creating useful things for people and love solving problems one chunk at a time. <br><br>I fell in love with coding around a year ago and have since begun the process of earning a degree in <span class="red">Software Development</span>. I spend all of my free time working on my abilities and learning as much as possible, and now I am searching for an entry level position as a front-end developer where I can truly grow my skillset.</p>
+    </div>
+    <div class="what col-lg-5 col-sm-12 container-fluid">
+      <h3 class="what-header"><span class="red">What</span> I Can Do For You</h3>
+      <P class="lead">I am passionate about learning different technologies and sharpening my skills, and I would love to put that skillset to use for the right company.<br><br>
+        <span class="red">Here</span> is a list of technologies I know well and love working with:</p>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Javascript</li>
+          <li>ES6</li>
+          <li>Bootstrap4</li>
+          <li>Bulma</li>
+        </ul><br>
+      <p class="lead"><span class="red">These</span> are things I've been learning about lately and will be deploying projects to github with soon:</p>
+      <ul>
+        <li>React</li>
+        <li>Materialize CSS</li>
+        <li>Node.js</li>
+        <li>Express JS</li>
+      </ul>
+    </div>
+      <p class="lead"></p>
+    <div class="container-fluid if col-lg-5 col-sm-12">
+      <h3 class="if-header"><span class="red">If</span> You're Interested...</h2>
+      <p class="lead">I'd love to hear from any prospective employers or collaborators. You can reach me through the contact form below, through my social media, via email, or you can call/text me any time. You can find all my information in the navbar and footer of this page. Thank you so much for your time, I look forward to hearing from you!</p>
+    </div>
+    </div>
+
+  <!--Contact-->
+  <div class="container-fluid contact-container" id="contact-container">
+    <div class="container-fluid contact-div" id="contact">
+      <h2 class="contact-header"><span class="red">C</span>ontact Me</h2>
+      <div class="form">
+        <form class="contact-form col-lg-6 col-sm-12 shadow" action="https://formspree.io/xvowylqj" method="POST" id="contact-form">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="form-name" id="name">Name</label>
+                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name/the name of your business" required="required" data-error="This field is required">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_email">Email</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Please enter a valid email">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Write me a message" rows="4" required="required" data-error="Please, leave me a message"></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12" id="submit">
+              <input type="submit" class="btn btn-send shadow" id="send" value="Send message">
+          </div>
+          <p class="lead" id="form-status"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    <!--Footer-->
+    <div class="container-fluid footer-container">
+      <footer class="footer">
+        <div class="row">
+            <div class="col-md-4 text-center text-md-left ">
+                
+                <div class="py-0">
+                    <h3 class="my-4 text-white"><span class="red">Nate</span> Orona</span></h3>
+
+                    <p class="footer-links font-weight-bold">
+                        <a class="text-white index" id="home-click-footer">Home |</a>
+                        
+                        <a class="text-white projects" id="projects-click-footer">Projects |</a>
+                        
+                        <a class="text-white about" id="about-click-footer">About |</a>
+                        
+                        <a class="text-white contact" id="contact-click-footer">Contact</a>
+                    </p>
+                </div>
+            </div>
+            
+            
+            <div class="col-md-4 text-white text-center text-md-left">
+                <div class="py-2 my-4">
+                    <div>
+                        <p class="text-white"> <i class="fa fa-map-marker mx-2"></i>Valparaiso, IN 46383</p>
+                    </div>
+
+                    <div> 
+                        <p><i class="fa fa-phone  mx-2 "></i>219-323-5444</p>
+                    </div>
+                    <div>
+                        <p><i class="fa fa-envelope  mx-2"></i><a href="mailto:nathaniel.orona98@gmail.com">nathaniel.orona98@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 text-white my-4 text-center text-md-left ">Contact me on social media and check out more of my work
+              <div class="buttons">
+                <button class="btn btn-dark footer-button"><a href="#" target="_blank"><i class="fa fa-github white" id="github-button"></i></a></button><button class="btn btn-dark footer-button"><a href="#" target="_blank"><i class="fa fa-linkedin white"></i></a></button>
+              </div>            
+   </footer>
+ </div>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
+</html>

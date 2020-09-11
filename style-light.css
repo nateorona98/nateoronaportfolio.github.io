@@ -1,0 +1,428 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color:#1d1d1d ;
+    background-color:#EEF1EF;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+}
+
+a, button, .button {
+    cursor: pointer;
+    color: #f2f2f2;
+}
+
+h2, h3 {
+    margin-top: 5rem;
+    color: #1d1d1d;
+}
+
+/*grow*/
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.5); 
+}
+/*grow cards*/
+.card-grow {
+    transition: all .2s ease-in-out;
+}
+
+.card-grow:hover {
+    transform: scale(1.05); 
+}
+
+/*fade in*/
+.fade-2s {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+.fade-4s {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+.fade-6s {
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
+    -o-animation: fadeIn ease 6s;
+    -ms-animation: fadeIn ease 6s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+        }
+        
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+.fade-8s {
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+            
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+            
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+            
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+/*nav*/
+.navbar li {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-buttons {
+    list-style: none;
+    margin-top: .5rem;
+    color: #1d1d1d;
+    text-align: left;
+    display: inline-flex;
+}
+
+.toggle {
+    background-color: #0C6291;
+}
+
+.nav-links a {
+    color: #1d1d1d !important;
+}
+
+.navbar {
+    display: inline-flex;
+    justify-content: space-evenly;
+    color: #1d1d1d;
+}
+
+#mode {
+    margin-left: .3rem;
+    background-color: #0C6291;
+}
+
+#dark {
+    color: #2d2d2d;
+}
+
+/*home page*/
+.home-wrapper {
+    background: url('') center center no-repeat;
+    background-size: cover;
+}
+
+#light, #dark, i {
+    cursor: pointer;
+}
+
+.hello {
+    display: inline-block;
+    margin-top: 30vh;
+    text-align: center;
+    width: 100%;
+}
+
+.red {
+    color: #0C6291;
+}
+
+.click {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10rem;
+    height: 15vh;
+}
+
+#projects-click-arrows {
+    margin-top: 2rem;
+    color: #0C6291;
+}
+
+.my-work {
+    color: #020402;
+}
+
+.arrows {
+    size: 6rem;
+    margin-top: 1.5rem;
+    color: #693668;
+    cursor: pointer;
+}
+
+/*projects*/
+.projects-div {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+/*project cards*/
+.card-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.card {
+    background-color:#9AA0A8;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    padding-top: 1rem;
+}
+
+.card-link {
+    color: #0C6291;
+}
+
+.demo {
+    color:#0C6291;
+}
+
+/*About*/
+.about-container {
+    text-align: center;
+    margin-bottom: 10rem;
+    background-color: #9aa0a8;
+    color: #1d1d1d;
+    padding-bottom: 3rem;
+}
+
+.about-header {
+    margin-bottom: 0rem;
+    padding-top: 3rem;
+    color: #1d1d1d;
+}
+
+.about-div {
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+
+.who {
+    margin-bottom: 5rem;
+}
+
+.who-header {
+    margin-bottom:2rem;
+    display: inline-block;
+}
+
+p {
+    margin: 0 auto;
+    line-height: 2rem;
+}
+
+li, ul {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+.what {
+    margin-bottom: 2rem;
+}
+
+/*contact*/
+/*contact container div*/
+.contact-container {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+/*contact heading*/
+.contact-header {
+    color:#1d1d1d;
+    display: inline-block;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+
+/*contact form*/
+.contact-form {
+    background-color: #0C6291;
+    display: inline-block;
+    text-align: left;
+}
+
+/*contact form name field*/
+#name {
+    margin-top: 1rem;
+}
+
+
+/*contact information div*/
+.contact-info {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.contact-text {
+    margin-bottom: 2rem;
+}
+
+/*contact form submit button*/
+#submit {
+    text-align: center;
+}
+
+.btn-send {
+    background-color: #f2f2f2;
+    display: inline-block;
+    color: #1d1d1d;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/*form status message*/
+#form-status {
+    margin-left: 37%;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+/*footer*/
+
+.footer-container {
+    min-width: 100vw;
+    width: 100vw;
+    background-color: #9AA0A8;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #9AA0AB;
+    color: #020402;
+    min-width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    margin-top: 10vh;
+    width: 100vw;
+}
+
+#footer-row {
+    background-color: red;
+}
+
+.footer-button {
+    margin-top: 1.5rem;
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.fa-linkedin, .fa-github {
+    color: #f2f2f2;
+}
+
+.footer-button:hover, .nav-button:hover, .footer-button:active, .nav-button:active {
+    background-color: #693668;
+}
